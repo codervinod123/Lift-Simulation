@@ -1,0 +1,135 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.simulation_container{
+    
+    height: 100vh;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   overflow: auto;
+   background-image: url("./background.jpg");
+   background-repeat: no-repeat;
+   
+}
+
+.input_area{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: rgb(151, 70, 213);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input_floor{
+    display: flex;
+    gap: 10px;
+}
+
+.input_floor label{
+    font-size: 18px;
+}
+
+.input_floor input{
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.input_lift{
+
+    display: flex;
+    gap: 10px;
+}
+
+.input_lift label{
+    font-size: 18px;
+}
+
+.input_lift input{
+
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(151, 70, 213);
+}
+
+.btn{
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: rgb(151, 70, 213);
+    color: white;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.btn:hover{
+    background:rgb(151, 120, 174);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.building {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .floor {
+    border-bottom: 1px solid rgb(17, 140, 26);
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lift-buttons {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-direction: column;
+  }
+  
+  .lift-buttons button {
+    float: left;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 2px 0;
+    background-color: aquamarine;
+  }
+  
